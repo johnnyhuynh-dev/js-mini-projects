@@ -92,8 +92,6 @@ toSelect.innerHTML = optionsHTML;
 
 
 
-form.addEventListener('input', handleInput)
-
-
+form.addEventListener('input', handleInput) 
 
 
