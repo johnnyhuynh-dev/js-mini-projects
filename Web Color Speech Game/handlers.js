@@ -1,11 +1,8 @@
 import {isValidColor} from './colors';
 
-function logWords(results) {
-    // console.log(results[results.length - 1][0].transcript);
-}
 
 export function handleResult({results}) {
-    logWords(results);
+    console.log('fucking this');
     const words = results[results.length - 1][0].transcript;
     //lowercase everything
     let color = words.toLowerCase();
@@ -22,3 +19,6 @@ export function handleResult({results}) {
     document.body.style.backgroundColor = color;
 
 }
+
+
+

@@ -306,12 +306,9 @@ exports.handleResult = handleResult;
 
 var _colors = require("./colors");
 
-function logWords(results) {// console.log(results[results.length - 1][0].transcript);
-}
-
 function handleResult(_ref) {
   var results = _ref.results;
-  logWords(results);
+  console.log('fucking this');
   var words = results[results.length - 1][0].transcript; //lowercase everything
 
   var color = words.toLowerCase(); // strip space out
@@ -394,7 +391,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "50592" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "49754" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

@@ -35,8 +35,6 @@ function displayColors(colors) {
  }
 
  // populate the color div with different colors
- colorEl.innerHTML = displayColors(colorsByLength);
+ colorEl.innerHTML = displayColors(colorsByLength); 
 
  start();
- 
-
