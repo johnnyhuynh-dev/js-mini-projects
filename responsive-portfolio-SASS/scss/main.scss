@@ -41,8 +41,6 @@ header {
   position: fixed;
   z-index: 2;
   width: 100%;
-  border-style: solid;
-  border-color: white;
 }
 
 .text-secondary {
@@ -52,7 +50,6 @@ header {
 main {
   padding: 4rem;
   height: 100%;
-  border-style:solid;
 
   .icons {
     margin-top: 1rem;
@@ -66,10 +63,6 @@ main {
       }
 
     }
-  }
-
-  h1, h2, .icons {
-    border-style: solid;
   }
 
   &#home{
