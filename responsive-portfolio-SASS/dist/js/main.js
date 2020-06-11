@@ -12,3 +12,5 @@ function toggleMenu() {
         menuBranding.classList.toggle('show');
         navItems.forEach(item => item.classList.toggle('show'));
 }
+
+
